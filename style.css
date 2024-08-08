@@ -1,0 +1,27 @@
+*{
+    user-select: none;
+}
+
+input{
+    background-color: rgb(249, 241, 243);
+    border: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(195, 187, 187);
+}
+input::placeholder{
+    color: rgb(3, 244, 172);
+    font-size: 10px;
+    pointer-events: none;
+    
+}
+input:focus{
+    background-color: #c9c5c5;
+    border-radius: 0px;
+    pointer-events: fill;
+    transition: border-radius .2s linear , background-color  0s linear;
+    border: 0px solid rgb(125, 40, 124);
+    outline: none;
+    
+}
